@@ -1,4 +1,4 @@
-asdsd'''
+'''
 get the text from the clipboard, add a star and space to the beginning of each
 line, and then paste this new text to the clipboard.
 
@@ -11,7 +11,7 @@ import pyperclip
 text = pyperclip.paste()
 # print(text)
 #Code to add star and a space
-lines = text.split('\n')
+lines = text.split('.')
 print(lines)
 for i in range(len(lines)):
     lines[i] = '* ' + lines[i]
